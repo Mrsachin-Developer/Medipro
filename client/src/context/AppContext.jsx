@@ -7,7 +7,7 @@ import { toast } from "react-toastify";
 const AppContent = createContext();
 
 const AppContextProvider = ({ children }) => {
-  const backendUrl = import.meta.env.VITE_BACKEND_URL;
+  const backendUrl = "https://medipro-j6bj.onrender.com";
 
   
   axios.defaults.withCredentials = true;
