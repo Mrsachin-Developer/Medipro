@@ -13,7 +13,7 @@ const app = express();
 const port = process.env.PORT || 4000;
 connectDb();
 
-const allowedOrigins = ["http://localhost:5173"];
+const allowedOrigins = ["https://mediisetu.onrender.com"];
 
 app.use(express.json());
 app.use(cookieParser());
